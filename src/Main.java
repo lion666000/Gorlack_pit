@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Ukoly haf = new Ukoly();
+        haf.vypis7();
+
+
     }
 }
