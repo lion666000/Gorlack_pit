@@ -25,8 +25,9 @@ public class Main {
                 case 7 ->
                         haf.vypis7();
             }
+            String k = sc.nextLine();
             System.out.println("Chcete pokračovat ( end = konec )");
-            String s = sc.next();
+            String s = sc.nextLine();
             if (s.equals("end")){
                 negr = false;
             }
