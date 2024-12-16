@@ -18,50 +18,33 @@ public class Ukoly {
     public void vypis3(){
         System.out.println("Zadej čísílko");
         int e = sc.nextInt();
-        if (e<0){
-            System.out.println("Bylo zadáno záporné číslo.");
-        }
-        else if (e==0) {
-            System.out.println("0");
-        }
-        else if (e>12){
-            System.out.println("Moc velké číslo");
-        }
-        else if (e==1){
-            System.out.println("jedna");
-        }
-        else if (e==2){
-            System.out.println("dva");
-        }
-        else if (e==3){
-            System.out.println("tři");
-        }
-        else if (e==4){
-            System.out.println("čtyři");
-        }
-        else if (e==5){
-            System.out.println("pět");
-        }
-        else if (e==6){
-            System.out.println("šest");
-        }
-        else if (e==7){
-            System.out.println("sedm");
-        }
-        else if (e==8){
-            System.out.println("osm");
-        }
-        else if (e==9){
-            System.out.println("devět");
-        }
-        else if (e==10){
-            System.out.println("deset");
-        }
-        else if (e==11){
-            System.out.println("jedenáct");
-        }
-        else if (e==12){
-            System.out.println("dvanáct");
+        switch (e){
+            case 1 ->
+                System.out.println("jedna");
+            case 2 ->
+                System.out.println("dva");
+            case 3 ->
+                System.out.println("tři");
+            case 4 ->
+                System.out.println("čtyři");
+            case 5 ->
+                System.out.println("pět");
+            case 6 ->
+                System.out.println("šest");
+            case 7 ->
+                System.out.println("sedm");
+            case 8 ->
+                System.out.println("eight");
+            case 9 ->
+                System.out.println("nine");
+            case 10 ->
+                System.out.println("ten");
+            case 11 ->
+                System.out.println("eleven");
+            case 12 ->
+                System.out.println("twelve");
+            default ->
+                System.out.println("USS Negr");
         }
     }
 
